@@ -6,6 +6,9 @@ public class UnThreadSafeCountingProcessor implements CountingProcessor{
     @Override
     public void process() {
         doProcess();
+        /*synchronized (this) {
+            count++;
+        }*/
         count++;
     }
 

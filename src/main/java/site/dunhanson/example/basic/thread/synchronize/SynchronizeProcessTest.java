@@ -1,7 +1,7 @@
 package site.dunhanson.example.basic.thread.synchronize;
 
 public class SynchronizeProcessTest {
-    public static final int LOOP_TIME = 1000 * 10000;
+    public static final int LOOP_TIME = 100 * 100 * 1000;
 
 
     public static void main(String[] args) {
