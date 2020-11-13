@@ -1,6 +1,8 @@
-package site.dunhanson.example.basic.thread.demo;
+package site.dunhanson.example.basic.thread.test;
 
-public class Game {
+import site.dunhanson.example.basic.thread.game.GoalNotifier;
+
+public class VolatileGameTest {
 
     public static void main(String[] args) throws InterruptedException {
         // Game begun! Init goalNotifier thread

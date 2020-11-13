@@ -1,4 +1,8 @@
-package site.dunhanson.example.basic.thread.synchronize;
+package site.dunhanson.example.basic.thread.test;
+
+import site.dunhanson.example.basic.thread.process.CountingProcessor;
+import site.dunhanson.example.basic.thread.process.ProcessTask;
+import site.dunhanson.example.basic.thread.process.UnThreadSafeCountingProcessor;
 
 public class SynchronizeProcessTest {
     public static final int LOOP_TIME = 100 * 100 * 1000;

@@ -1,4 +1,4 @@
-package site.dunhanson.example.basic.thread.synchronize;
+package site.dunhanson.example.basic.thread.process;
 
 public class UnThreadSafeCountingProcessor implements CountingProcessor{
     private long count = 0;

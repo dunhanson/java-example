@@ -1,4 +1,4 @@
-package site.dunhanson.example.basic.thread.demo;
+package site.dunhanson.example.basic.thread.game;
 
 public class GoalNotifier implements Runnable {
     public volatile boolean goal = false;
